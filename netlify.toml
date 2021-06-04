@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "./stackbit-build.sh && ./crypt.sh"
+command = "sh ./stackbit-build.sh && sh ./crypt.sh"
 
   [build.environment]
   HUGO_VERSION = "0.74.3"
